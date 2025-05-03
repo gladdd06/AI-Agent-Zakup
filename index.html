@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИИ Агент — Больше контроля, меньше рутины</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="main-nav jasper-navbar">
+        <div class="container nav-flex jasper-navbar-container">
+            <a href="#hero" class="logo jasper-logo">ИИ Агент</a>
+            <ul class="nav-menu jasper-nav-list">
+                <li><a href="#how" class="jasper-nav-link">Как работает</a></li>
+                <li><a href="#benefits" class="jasper-nav-link">Преимущества</a></li>
+                <li><a href="#solutions" class="jasper-nav-link">Для кого</a></li>
+                <li><a href="#compliance" class="jasper-nav-link">Безопасность</a></li>
+                <li><a href="#faq" class="jasper-nav-link">FAQ</a></li>
+                <li><a href="#pilot" class="jasper-nav-link">Пилот</a></li>
+                <li><a href="#team" class="jasper-nav-link">Команда</a></li>
+            </ul>
+            <!-- <a href="#cta" class="jasper-btn nav-cta jasper-navbar-cta">Запросить демо</a> -->
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero jasper-hero" id="hero">
+        <div class="container">
+            <div class="hero-content jasper-hero-content">
+                <h1 class="hero-title jasper-title">Больше контроля, меньше рутины</h1>
+                <p class="hero-subtitle jasper-subtitle">ИИ-агент для автоматизации закупок по 44-ФЗ и 223-ФЗ.</p>
+                <a href="#cta" class="jasper-btn hero-cta jasper-navbar-cta big-selling-cta" id="open-cta">Запросить демо</a>
+            </div>
+            <div class="hero-bg-animation jasper-bg"></div>
+        </div>
+        <div class="parallax-bg"></div>
+    </header>
+    <!-- Всё, что ниже hero, скрыто на первой странице -->
+    <main id="main-content">
+        <!-- How it works -->
+        <section class="how-it-works reveal jasper-section" id="how" style="display:none">
+            <div class="container how-works-flex">
+                <div class="how-works-description">
+                    <h2 class="section-title jasper-section-title">Как работает ИИ-агент в закупках</h2>
+                    <p>ИИ-агент закрывает весь цикл тендера — от поиска закупки до подачи заявки и контроля исполнения. Он объединяет пять ключевых этапов в единую автоматизированную цепочку:</p>
+                    <ol class="how-works-list">
+                        <li><b>Поиск</b> — находит и загружает закупки с ЕИС и агрегаторов.</li>
+                        <li><b>Анализ</b> — отбирает подходящие закупки с помощью LLM-фильтрации по шаблонам.</li>
+                        <li><b>Риски</b> — проверяет контрагентов и оценивает тендерные риски.</li>
+                        <li><b>Автозаполнение</b> — автоматически заполняет шаблоны заявок и документов.</li>
+                        <li><b>Контроль</b> — контролирует выполнение обязательств, сроки и акты.</li>
+                    </ol>
+                    <div class="how-works-facts jasper-card" style="margin-top:18px;font-size:1.08rem;">
+                        Всё это — за 4 клика и ЭЦП, в 10 раз быстрее человека, с 90% меньше ошибок.
+                    </div>
+                </div>
+                <img src="how-works.png" alt="Этапы работы ИИ-агента" class="how-works-img" style="max-width:370px;width:100%;margin:32px auto 0 auto;display:block;">
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits-section reveal jasper-section" id="benefits" style="display:none">
+            <div class="container">
+                <h2 class="section-title jasper-section-title">Преимущества ИИ-агента</h2>
+                <div class="faq-list jasper-cards">
+                    <div class="jasper-card">
+                        <span class="faq-question">Сокращение трудозатрат</span>
+                        <span class="faq-answer">Автоматизация до 90% операций: от поиска закупок до подачи заявки.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">10× быстрее человека</span>
+                        <span class="faq-answer">Полный цикл тендера — за 4 клика и одну ЭЦП, без рутинной работы.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Минимум ошибок и рисков</span>
+                        <span class="faq-answer">Интеллектуальные фильтры, проверка контрагентов, контроль сроков и логики.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Полное соответствие 44-ФЗ и 223-ФЗ</span>
+                        <span class="faq-answer">Юридически корректные действия на каждом этапе, с учётом требований регуляторов.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solutions -->
+        <section class="solutions reveal jasper-section" id="solutions" style="display:none">
+            <div class="container">
+                <h2 class="section-title jasper-section-title">Для кого подходит ИИ-агент</h2>
+                <div class="faq-list jasper-cards">
+                    <div class="jasper-card">
+                        <span class="faq-question">🧾 Специалисты по закупкам</span>
+                        <span class="faq-answer">
+                            Снижайте рутину и повышайте результативность тендеров:<br>
+                            • Автоматический поиск закупок по 44-ФЗ и 223-ФЗ<br>
+                            • Умная фильтрация и подбор релевантных тендеров<br>
+                            • Автозаполнение заявок и шаблонов<br>
+                            • Контроль исполнения, сроков и актов<br>
+                            • Ускорение работы в 10 раз, снижение ошибок на 90%
+                        </span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">⚖️ Юридический отдел</span>
+                        <span class="faq-answer">
+                            Контролируйте соблюдение закона без ручной проверки:<br>
+                            • Полное соответствие 44-ФЗ, 223-ФЗ и ФЗ-152<br>
+                            • Встроенная правовая логика и проверка контрактов<br>
+                            • Локализация данных на территории РФ<br>
+                            • Принцип "человек в центре": ключевые решения — за вами
+                        </span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">🖥️ ИТ-департамент</span>
+                        <span class="faq-answer">
+                            Интеграция без рисков и зависимостей:<br>
+                            • Открытая архитектура и API<br>
+                            • Использование open-source технологий<br>
+                            • Хранение и шифрование данных в соответствии с корпоративными стандартами<br>
+                            • Быстрый запуск и масштабирование
+                        </span>
+                    </div>
+                </div>
+                <div class="solutions-grid jasper-cards">
+                    <div class="solution-card jasper-card">
+                        <span class="icon jasper-icon">🏗️</span>
+                        <div class="sol-title">Строительство</div>
+                        <div class="sol-desc">Подрядчики, строительные компании, проектные бюро</div>
+                    </div>
+                    <div class="solution-card jasper-card">
+                        <span class="icon jasper-icon">🏥</span>
+                        <div class="sol-title">Медицина</div>
+                        <div class="sol-desc">Фармацевтические фирмы, поставщики медоборудования и материалов</div>
+                    </div>
+                    <div class="solution-card jasper-card">
+                        <span class="icon jasper-icon">⛽</span>
+                        <div class="sol-title">Топливная отрасль</div>
+                        <div class="sol-desc">Крупные нефтегазовые компании и региональные поставщики топлива</div>
+                    </div>
+                    <div class="solution-card jasper-card">
+                        <span class="icon jasper-icon">🏢</span>
+                        <div class="sol-title">ЖКХ</div>
+                        <div class="sol-desc">Ресурсоснабжающие предприятия и частные управляющие компании</div>
+                    </div>
+                    <div class="solution-card jasper-card">
+                        <span class="icon jasper-icon">🚚</span>
+                        <div class="sol-title">Транспорт</div>
+                        <div class="sol-desc">Производители и дилеры транспорта, транспортно-логистические компании</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compliance -->
+        <section class="compliance reveal jasper-section" id="compliance" style="display:none">
+            <div class="container">
+                <h2 class="section-title jasper-section-title">Безопасность</h2>
+                <div class="compliance-features jasper-cards">
+                    <div class="compliance-feature jasper-card">
+                        <span class="icon jasper-icon">📜</span>
+                        Соответствие 44-ФЗ и 223-ФЗ
+                    </div>
+                    <div class="compliance-feature jasper-card">
+                        <span class="icon jasper-icon">🔒</span>
+                        Хранение данных в РФ, шифрование
+                    </div>
+                    <div class="compliance-feature jasper-card">
+                        <span class="icon jasper-icon">⚖️</span>
+                        Встроенная юридическая экспертиза и контроль логики
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="security reveal jasper-section" id="faq" style="display:none">
+            <div class="container">
+                <h2 class="section-title jasper-section-title">Часто задаваемые вопросы (FAQ)</h2>
+                <div class="faq-list jasper-cards">
+                    <div class="jasper-card">
+                        <span class="faq-question">Соответствует ли ваш ИИ-агент требованиям российского законодательства о закупках (44 ФЗ, 223 ФЗ) и нормам хранения данных?</span>
+                        <span class="faq-answer">Наше решение изначально разрабатывалось в полном соответствии с российскими законами о закупках – 44 ФЗ и 223 ФЗ, учитывая все процедурные требования этих нормативов. ИИ-агент действует в рамках, разрешенных законодательством, не нарушая установленные правила проведения тендеров и контрактования. Все данные системы хранятся на серверах, находящихся на территории Российской Федерации (в соответствии с требованиями ФЗ-152 о персональных данных), что гарантирует соблюдение требований по локализации и защите информации. Мы отслеживаем изменения в законодательстве РФ и адоптируем наш  продукт для его соблюдения.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Насколько технически надежно и масштабируемо ваше решение? Какие технологии используются в ИИ-агенте?</span>
+                        <span class="faq-answer">Техническая архитектура нашего ИИ-агента основана на современных технологиях с открытым исходным кодом, что обеспечивает прозрачность, надежность и независимость от одного поставщика. Также реализован открытый API для интеграции, благодаря чему платформа легко подключается к другим программным продуктам и может быть расширена под ваши специфические нужды.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Насколько безопасно использование ИИ-агента и как контролируется качество его работы (ошибки и риски)?</span>
+                        <span class="faq-answer">Безопасность данных и надежность работы – наш безусловный приоритет. Мы защищаем информацию на уровне современных корпоративных стандартов, все передаваемые и хранимые данные шифруются, доступ разграничивается по ролям, а инфраструктура размещена на территории РФ. Мы придерживаемся принципа «человек в центре контроля»: ИИ-агент является инструментом помощи, а не заменой эксперта, поэтому ключевые решения всегда остаются за вами. Такой подход гарантирует, что даже в случае ошибки алгоритма она будет вовремя обнаружена и скорректирована, обеспечивая высокое качество и надежность результата.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Какие варианты тарифов вы предлагаете и можно ли протестировать систему на пилотном проекте?</span>
+                        <span class="faq-answer">У нас предусмотрена гибкая система тарифов, чтобы компании разного масштаба смогли подобрать оптимальный вариант под свой бюджет и объем закупочной деятельности. Доступны различные модели – от помесячной подписки для небольших команд до корпоративных лицензий для крупных предприятий, при необходимости мы готовы индивидуально рассчитать стоимость под особенности вашего использования.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pilot Section -->
+        <section class="pilot-section reveal jasper-section" id="pilot" style="display:none">
+            <div class="container">
+                <h2 class="section-title jasper-section-title">Пилот</h2>
+                <div class="faq-list jasper-cards">
+                    <div class="jasper-card">
+                        <span class="faq-question" style="color:#3558F5; font-size:1.12em;">Тарифы</span>
+                        <span class="faq-answer" style="font-weight:500;">Мы предлагаем гибкие модели подключения — для малого и среднего бизнеса, и компаний с высокой нагрузкой на тендерные процессы. Свяжитесь с нами для более подробной информации.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Что такое пилотный проект?</span>
+                        <span class="faq-answer">Вы можете испытать ИИ-агента в действии на ограниченном участке работы или в течение определенного периода, под наблюдением наших экспертов, перед полноценным развёртыванием.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Что вы получите в ходе пилота?</span>
+                        <span class="faq-answer">Вы оцените эффективность решения на своих процессах, увидите результаты и сможете собрать обратную связь от команды в реальных условиях.</span>
+                    </div>
+                    <div class="jasper-card">
+                        <span class="faq-question">Почему это без риска?</span>
+                        <span class="faq-answer">Пилотный режим и прозрачные условия позволяют убедиться в эффективности без рисков и скрытых обязательств. Мы уверены в ценности продукта и готовы продемонстрировать его пользу на практике.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section reveal jasper-section" id="team" style="display:none">
+            <div class="container">
+                <h2 class="section-title jasper-section-title">Команда</h2>
+                <div class="team-desc jasper-paragraph">
+                    Мы команда экспертов с глубоким опытом в сфере работы с рисками в закупках, и цифровизации процессов в госсекторе. Проект сопровождается юристами с экспертизой в контрактном праве.
+                </div>
+                <div class="contacts-info jasper-cards team-contacts-flex" style="margin-top:32px; gap:24px; flex-wrap:wrap; justify-content:center;">
+                    <div class="contact-info jasper-card team-contact-card">
+                        <span class="icon jasper-icon">📩</span>
+                        <span><b>Контактный email</b><br>gladdd@list.ru</span>
+                    </div>
+                    <div class="contact-info jasper-card team-contact-card">
+                        <span class="icon jasper-icon">💬</span>
+                        <span><b>Telegram</b><br>@MYGladikh</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section reveal jasper-section" id="cta" style="display:none">
+            <div class="container">
+                <h2 class="section-title jasper-section-title">Запросите демо</h2>
+                <form class="cta-form" id="cta-form">
+                    <input type="text" name="name" placeholder="Имя" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="company" placeholder="Компания" required>
+                    <select name="role" required>
+                        <option value="" disabled selected>Чем вы занимаетесь?</option>
+                        <option value="закупки">Закупки</option>
+                        <option value="ит">ИТ</option>
+                        <option value="комплаенс">Комплаенс</option>
+                        <option value="другое">Другое</option>
+                    </select>
+                    <select name="topic" required>
+                        <option value="" disabled selected>Что хотите обсудить?</option>
+                        <option value="пилот">Пилот</option>
+                        <option value="партнерство">Партнёрство</option>
+                        <option value="интеграция">Интеграцию</option>
+                        <option value="другое">Другое</option>
+                    </select>
+                    <button type="submit" class="jasper-btn big-cta">Отправить заявку</button>
+                </form>
+                <div class="cta-note">Мы свяжемся с вами в течение 1 рабочего дня</div>
+            </div>
+        </section>
+    </main>
+    <footer class="jasper-footer dark-bg" style="display:none">
+        <div class="container">
+            <span>© 2025 ИИ-агент для тендеров</span>
+        </div>
+    </footer>
+</body>
+</html>
